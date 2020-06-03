@@ -10,11 +10,14 @@ body {
 
 a {
   font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .menu-top {
@@ -31,16 +34,11 @@ a {
   font-size: 12px;
   line-height: 14px;
   font-weight: 400;
-  height: 45px;
-  padding: 0 10px;
 }
 
 .lang {
   display: inline;
   color: #fff;
-}
-
-.lang a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -51,16 +49,12 @@ a {
   margin-right: 10px;
 }
 
-.lang a:hover {
+.lang:hover {
   opacity: 1;
 }
 
-.photo {
-
-}
-
-.email {
-
+.lang:last-child {
+  margin-right: 0;
 }
 
 .nav {
@@ -74,25 +68,138 @@ a {
   height: 100px;
 }
 
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: none;
+}
+
 .left-side {
   display: flex;
   align-items: center;
 }
 
-.logo {
-
-}
-
 .line {
+  background-color: #fff;
+  width: 1px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
   margin: 0 30px;
 }
 
 .office {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
-.right-side {
+.right-side a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.menu-name li {
+  display: inline-block;
+}
+
+.menu-name li+li {
+  margin-left: 30px;
+}
+
+.main-bg {
+  height: 620px;
+  background-image: url(images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 620px;
+}
+
+.main-box__wrapper {
+  width: 920px;
+  margin: 155px auto 0;
+  border: 1px solid #C8A35F;
+  color: #fff;
+}
+
+.main-box__title {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 700;
+  text-align: center;
+  margin: 45px 71px;
+}
+
+.main-box__text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin: 45px 71px;
+}
+
+.mouse {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.trucking-bg {
+  position: relative;
+  height: 561px;
+  width: 100%;
+  background-color: #2F343A;
+}
+
+.trucking {
+  position: absolute;
+  width: 30%;
+  height: 561px;
+  left: 0;
+  right: 0;
+  background-color: #393F47;
+  z-index: 1;
+}
+
+.trucking-about {
+
+}
+
+.main-line {
+  width: 90px;
+  height: 6px;
+  background-color: #C8A35F;
+}
+
+.main-title {
+
+}
+
+.main-text {
+
+}
+
+.btn {
+
+}
+
+.truck {
+
+}
+
+.slider {
+
+}
+
+.next {
+
+}
+
+.prev {
 
 }
